@@ -1,0 +1,386 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tercera Aplicacion</title>
+
+<!-- grupo CSS -->
+<link rel="stylesheet" href="css/temaapp3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!-- grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Volcán Popocatépetl</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Leyenda del Popocatépetl</h1>
+          <div>
+          <p>En la mitología mexica, Iztaccíhuatl fue una princesa que se enamoró de Popocatépetl, uno de los guerreros de su padre. El padre de la princesa envió al guerrero a una batalla a Oaxaca, prometiéndole entregarle a su hija si regresaba victorioso y con la cabeza de su enemigo en la lanza. Tiempo después el guerrero regresó con la cabeza de su rival sangrando en su lanza, por lo que recibió un festín por su victoria. Sin embargo, su amor se dio por acabado ya que la princesa había muerto. Con el corazón roto llevó el cuerpo de su amada a un monte y los dioses la convirtieron en volcán inactivo. Después, el guerrero tomó una antorcha y prometió que ningún huracán por más fuerte que llevara sus aguas apagaría el fuego con el que vela el cuerpo de su amada. Por esto, los dioses le entregaron la eternidad convirtiéndolo en volcán a cambio de custodiar a la princesa Iztaccíhuatl.
+          </p>
+          <br>
+          </div>
+   <div>
+   <center>
+    <img alt="" src="imagenes/volcan1.jpg" onmouseover="this.src = 'imagenes/volcan2.jpg'" onmouseout="this.src = 'imagenes/volcan1.jpg'" width="50%" height="50%"/></center>
+    </div>
+      </div>
+     </div>
+ <div>
+       <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+       <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>General</h2>
+       <p>Muestra tamaño, antigüedad, localización, actividad y monitoreo.</p>
+         </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+           <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>Medidas de prevención</h2>
+           <p>Muestra medidas de prevención en cuanto a caída de ceniza y erupción.</p>
+           </a>
+           </li>
+           <li class="ui-first-child ui-last-child">
+           <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>Estados que afectaría</h2>
+           <p>Muestra los estados que afectaría.</p>
+           </a>
+           </li>
+           <li class="ui-first-child ui-last-child">
+               <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2>Otros volcanes</h2>
+               <p>Muestra otros volcanes.</p> 
+               </a>
+              </li>
+                <li class="ui-first-child ui-last-child">
+               <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2>Galeria</h2>
+               <p>Muestra imagenes sobre el Popocatépetl</p> 
+               </a>
+              </li>
+                 </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+  <div>  
+    <img src="imagenes/Mountain-icon.png" width="46" height="46">
+   </div>
+   <div>
+     <h4>Aplicacion Dos</h4>
+     <h4>Cielo Abril Maca Malpica</h4>
+     </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>Datos generales</h1>
+  </div>
+   <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+        <h1>Tamaño</h1>
+          <div>
+          <p>De apariencia casi simétrica, cubre una superficie de 283,192.53 hectáreas y tiene una altura de 5,426 metros sobre el nivel del mar. Posee un cráter elíptico de paredes empinadas con una profundidad de 150 metros desde el labio inferior, un diámetro mayor de 900 metros y un ancho total de 400 x 600 metros.
+          </p>
+          <br>
+          </div>
+   <div>
+     <img src="imagenes/volcan3.jpg" width="50%" height="50%"> </div>
+    </div>
+
+    <div data-role="collapsible" data-content-theme="false"> 
+        
+        <h1>Antigüedad</h1>
+          <p>El Popocatépetl es un volcán geológicamente joven. Se cree que tiene unos 730,000 años de antigüedad y que es remanente de volcanes antiguos que colapsaron. Su historia comenzó con la formación del volcán Nexpayantla a través de la expulsión de flujos de lava andesítica y dacítica. Años después, este volcán colapsó y en consecuencia se formó una caldera, es decir, una depresión amplia y profunda debajo de la cual se halla una cámara de magma.
+          </p>
+          <br>
+   <div>
+     <img src="imagenes/volcan4.jpg" width="50%" height="50%"> </div>
+   </div>
+   
+   <div data-role="collapsible" data-content-theme="false">
+        <h3>Localización</h3>
+        <div>
+        <p>
+        El Popocatépetl esta ubicado en los estados de Morelos, Puebla (45 kilometros) y el Estado de México( a 55 kilometros). Al sur de la Sierra Volcánica Transversal que constituye la espina dorsal del Altiplano Mexicano.
+
+En el Estado de México colinda con los municipios: Tlamanalco, Amecameca, Atlauta y Ecatzingo.
+
+Con el estado de Morelos colinda específicamente con el municipio de Tetela del Volcán.
+
+Por la parte de Puebla colinda con Huejotzingo, San Salvador el Verde, Domingo Arenas, San Nicolás de los Ranchos y Tochimilco.
+        </p>
+        </div>
+   <div>  
+    <img src="imagenes/localizacion.jpg" width="50%" height="50%"></div>
+   </div>
+   <div data-role="collapsible" data-content-theme="false">
+        <h3>Actividad</h3>
+        <div>
+        <p>
+       Ha tenido por lo menos cuatro erupciones explosivas que colapsaron el cono, dando como resultado enormes derrumbes prehistóricos de enormes proporciones.
+
+Hace 14,000 años ocurrió una gran erupción que produjo abundantes lluvias de ceniza y piedra pómez. Durante los siguientes12 milenios han sucedido por lo menos seis grandes erupciones explosivas. La última gran erupción ocurrió aproximadamente entre los años 800 y 1,000 de nuestra era.
+
+1363 Comienza a humear.
+1509
+1512
+1519 y 1528 arroja humo, cenizas y piedras incandescentes.
+1530 produce solo humo.
+1539 lanza grandes llamas, piedras y cenizas.
+1562.
+1570 Para este año incrementó la actividad sísmica.
+1571 Arrojó gran cantidad de cenizas.
+1592 Arrojó vapores y cenizas.
+1642.
+1663 Arroja gran cantidad de ceniza y con ella piedras pómez.
+1664.
+1665 Estuvo arrojando cenizas por varios días.
+1697 Hizo una erupción de fuego.
+1720 Registró una nueva erupción.
+1790, 1802 y 1804 Arrojaba una columna de humo.
+1919: La erupción registrada en este año fue considerada por algunos como consecuencia de una explosión de dinamita provocada para la extracción de azufre. Los orígenes de esta actividad la inició Hernán Cortés en 1519 cuando mandó a Diego de Ordaz a que subiera el Popo pero no logró alcanzar el cráter; en cambio al año siguiente otros soldados sacaron azufre para fabricar pólvora.
+En 1947 ocurrió una erupción de consideración, para iniciar así un periodo de actividad.
+A lo largo de 1992 y 1993 aumentaron las fumarolas y los microsismos.
+21 de diciembre de 1994 registró una explosión que produjo gas y cenizas que fueron transportados por los vientos dominantes, llegando llegaron más allá del Estado de Puebla. Cabe señalar que en este año los monasterios del siglo XVI construidos en las laderas del volcán, fueron declarados Patrimonio de la Humanidad por la UNESCO.
+1995 Registro una actividad fluctuante.
+Marzo de 1996: En esta año aumentó la actividad y se formó un domo en el cráter.
+30 de abril de 1996, El popo lanza una lluvia de piedras incandescentes, provocando la muerte de cinco expertos alpinistas que exploraban el volcán. Durante este año también se registraron varios microsismos.
+El 30 de junio de 1997 lanzó una fumarola de 8 kilómetros de altura y 50 kilómetros de diámetro.
+20 de junio del 2003.
+21 de septiembre del 2003.
+25 de diciembre de 2005: Se produjo una nueva explosión que provocó una columna de humo y cenizas de tres kilómetros de altura y la expulsión de lava.
+Como el volcán esta activo, es constantemente vigilado y existen planes de emergencia por si hay necesidad de evacuar a los 23 pueblos que viven en sus faldas. Los encargados son el Centro Nacional de Prevención de Desastres CENAPRED, que opera en la Ciudad Universitaria, en la capital del país.
+        </p>
+        </div>
+   <div>  
+    <img src="imagenes/actividad.jpg" width="50%" height="50%">
+   </div>
+   </div>
+   <div data-role="collapsible" data-content-theme="false">
+        <h3>Monitoreo</h3>
+        <div>
+        <p>
+      Condiciones de viento actuales: La circulación del viento que se observa desde capas inmediatas inferiores al cráter y hasta 5000 metros en la vertical, presenta una dirección de oeste a este con una velocidad que oscila de 20 a 90 km/h. Interpretación de los modelos de pronóstico meteorológico: En el transcurso de esta noche y primeras horas del día de mañana, el perfil del viento no presentará mayores cambios en rumbo e intensidad. Consecuencia: Si el volcán llegara a presentar exhalaciones importantes, la pluma de ceniza sería llevada por el viento hacia la región centro-occidental del estado de Puebla. No hay condiciones para que la Zona Metropolitana del Valle de México pudiera resultar afectada.
+
+        </p>
+        </div>
+   <div>  
+    <img src="imagenes/monitoreo.jpg" width="50%" height="50%">
+   </div>
+   </div>
+   </div>
+   <div data-role="footer" data-theme="a">
+   <h4>Cielo Abril Maca Malpica</h4>
+   </div>
+   </div>
+   
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>Medidas de prevención</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+        <h3>Caída de ceniza</h3>
+        <div>
+   <ul>
+     <li>
+     No humedecer la ceniza a fin de evitar taponamientos en el sistema de alcantarillado
+Mantén la calma.
+     </li>
+     <li>
+     Utiliza medios electrónicos y de comunicación para obtener información confiable que den las autoridades de Protección Civil sobre la caída de ceniza y atiende siempre sus instrucciones.
+     </li>
+     <li>
+     No realices actividades al aire libre y si es posible no salgas.
+     </li>
+     <li>
+    Cierra puertas y ventanas y coloca toallas o trapos húmedos en las rendijas.
+     </li>
+     <li>
+     Si tienes que salir cúbrete con un pañuelo o tapabocas, limpia ojos y garganta con agua pura.
+     </li>
+     <li>
+     Para los ojos, usa lentes protectores, especialmente si usas lentes de contacto.
+     </li>
+     <li>
+     Ten a la mano una linterna y pilas.
+     </li>
+     <li>
+    La ceniza volcánica puede ser resbaladiza, sobre todo cuando está mojada. Toma las precauciones necesarias.
+     </li>
+     <li>
+     Cubre tinacos, cisternas y depósitos de agua.
+     </li>
+     <li>
+    Barre y retira la ceniza de techos, azoteas, patios y calles, deposítalas en bolsas y no permitas que se vaya al drenaje.
+     </li>
+     <li>
+    Si es posible no conduzcas, si tienes que hacerlo, hazlo a baja velocidad y con las luces encendidas, ya que la ceniza dificulta la visibilidad y provoca que el pavimento se vuelva resbaloso.
+     </li>
+     <li>
+    Ante la caída de ceniza volcánica evita consumir alimentos en la vía pública.
+     </li>
+     <li>
+     Si permaneces expuesto por algún tiempo a las cenizas volcánicas, al ingresar a tu casa se recomienda cambiar de ropa.
+     </li>
+     <li>
+     Durante la caída de ceniza volcánica, evita que los menores realicen actividades al aire libre.
+     </li>
+     <li>
+     Mantén a tus mascotas en un lugar techado al igual que sus alimentos. Si tus macotas salen, cepíllalos antes de permitirles la entrada nuevamente.
+     </li>
+     <li>
+    La ceniza puede ser usada para parques, jardines, macetas o tierras de cultivo, ya que es rica en minerales.
+     </li>
+     <li>
+     No repitas ni difundas rumores. La ciudad de Puebla se encuentra a una distancia segura, no intentes salir.
+     </li>
+     <li>
+     Usa las vías de comunicación solo en caso de ser necesario.
+     </li>
+   </ul>
+    <div>
+    <center>  
+    <img src="imagenes/prevencion1.jpg" width="50%" height="50%">
+    </center>
+    </div>
+   </div>
+    </div>
+
+    <div data-role="collapsible" data-content-theme="false">
+        <h3>Erupción</h3>
+        <div>
+        <p>
+       Mantente alejado de volcanes activos.
+Si vives cerca de un volcán activo, prepara un kit de emergencia que incluya gafas de seguridad, una máscara, una linterna y una radio en buen estado que funcione con pilas.
+Elabora una ruta de evacuación y ten el depósito de gasolina del coche siempre lleno.
+Evacua siguiendo las recomendaciones de las autoridades para no encontrarte lava y barro, así como rocas y escombros que puede arrojar el volcán.
+Evita zonas de ríos y regiones bajas.
+Antes de abandonar tu casa, ponte una camisa de manga larga y pantalones largos; usa gafas de seguridad o normales, sin lentillas. Ponte una máscara de emergencia o envuélvete la cara con un paño húmedo.
+Si no vas a evacuar, cierra puertas y ventanas, y bloquea la chimenea y otros puntos de ventilación para evitar que la ceniza entre en la casa.
+Ten en cuenta que la ceniza puede sobrecargar el tejado y puedes necesitar retirarla. Durante la limpieza, lleva elementos de protección
+La ceniza puede dañar motores y piezas metálicas, así que evita conducir. Si debes conducir, no superes los 55 kilómetros por hora.
+        </p>
+        </div>
+   <div> 
+   <center> 
+    <img src="imagenes/prevencion2.jpg" width="50%" height="50%">
+    </center>
+   </div>
+   </div>
+   </div>
+   <div data-role="footer" data-theme="a">
+   <h4>Cielo Abril Maca Malpica</h4>
+   </div>
+   </div>
+       
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Estados que afectaría</h1>
+  </div>
+  <!--<div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">-->
+        <div>
+    <p>Considerando la remota posibilidad de un evento mayor del Popocatépetl, los efectos más serios de una erupción grande están marcados en el Mapa de Peligros Volcánicos del Popocatépetl, que ha sido publicado por el Instituto de Geofísica de la UNAM. Se limitarían a la cercanía del volcán, sobre radios del orden de 20 a 30 km. Un evento de esta naturaleza debería ser previsto por los sistemas de detección y monitoreo del volcán con anticipación suficiente para tomar medidas preventivas. En las grandes ciudades, como México, D.F., cuyo centro se encuentra a 72 km. del cráter del volcán, Puebla a unos 43 km., Cuernavaca a 63 km. o Tlaxcala a 53 km., los efectos de tal evento se limitarían a los problemas derivados de lluvias de cenizas volcánicas, similares a las del 30 de junio de 1997, pero más fuertes y con una proporción mayor de cenizas más gruesas.
+
+Esto significa que en este escenario, en las grandes ciudades podrían esperarse lluvias de ceniza que pudieran causar molestias importantes a sus habitantes, pero de ninguna manera pueden esperarse efectos desastrosos como ríos de lava, grandes terremotos u otros fenómenos destructivos como aparecen en algunas películas de ficción.
+    </p>
+    <div>
+    <center>  
+    <img src="imagenes/estados1.jpg" width="50%" height="50%">
+    </center>
+    </div>
+   </div>
+   <div data-role="footer" data-theme="a">
+   <h4>Cielo Abril Maca Malpica</h4>
+   </div>
+   </div>
+   
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Otros volcanes</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+        <h3>El volcán Kilimanjaro, Tanzania</h3>
+        <div>
+    <p>El Kilimanjaro es un volcán que se encuentra en el parque nacional homónimo en Tanzania. Tiene una altitud de 5.895 metros, lo que la convierte en la montaña más alta de África y uno de los volcanes más altos del mundo.
+
+Es un estratovolcán formado por tres cráteres con nieves perpetuas, gracias al glaciar que existe en su cima. En los últimos años ha disminuido aceleradamente el grosor del hielo.
+
+Es un volcán con mucha historia y rodeado de misticismos. Antes del siglo XIX, algunas relatos como el realizado por el geógrafo egipcio Ptolomeo mencionan la existencia de una “montaña blanca” al sur de África. En 1845, el geógrafo británico William Cooley, seguro de su existencia, asegura que la montaña más conocida de África del Este, llamada Kirimanjara, está cubierta de rocas rojas.
+<br>
+Posteriormente en mayo de 1848, un misionero alemán, Johannes Rebmann, exploró la región y al acercarse a la montaña relato: “Hacia las 10 horas, vi algo blanco en la cumbre de una alta montaña y creí que se trataba de nubes, pero mi guía me dice que era frío, entonces reconocí con satisfacción a esta vieja compañera de los europeos que llamamos nieve".
+
+Hubo que esperar hasta 1861 para que una expedición, dirigida por el barón alemán Klaus von der Decken y el botánico inglés Richard Thornton, permita comprobar que se trata en efecto de una cima nevada. Su cima fue alcanzada por primera vez, luego de varios fracasos, por  Hans Meyer  el 6 de octubre de 1889.
+
+En la actualidad el Kilimanjaro se encuentra protegido por un parque nacional, el cual fue declarado Patrimonio de la Humanidad por la Unesco en el año 1987.
+<br>
+El deshielo de los glaciares de la cumbre del Kilimanjaro es una realidad. Estimados en 12 km² hacia 1900, no cubren hoy más que 2 km² y a este ritmo habrán desaparecido hacia 2020. El calentamiento global de la Tierra no basta para explicar este fenómeno. Puede provenir también de una lenta reactivación de la actividad volcánica, que se manifiesta por algunas fumarolas.
+
+La ascensión es técnicamente fácil, pero larga y penosa por el frío y la altitud. La ruta más frecuentada es la ruta Marangu. Las otras vías practicadas son las vías Machame, Mweka, y Shira. Aproximadamente 20 000 excursionistas intentan todos los años alcanzar la cumbre.</p>
+    <div>  
+    <center>
+    <img src="imagenes/volcan-1.jpg" width="50%" height="50%"></center>
+    </div>
+    </div>
+    </div>
+
+    <div data-role="collapsible" data-content-theme="false">
+        <h3>El monte Vesubio, Italia</h3>
+        <div>
+        <p>
+       El monte Vesubio está ubicado junto a una ciudad en Nápoles, que tiene dos millones de habitantes. Su altura ha variado de 1.100 a 1.300 metros en el ultimo siglo. Es un volcán activo del tipo vesubiano .
+
+Es famoso por su erupción del 24 de agosto del año 79, en la que fueron sepultadas las ciudades de Pompeya y Herculano. Tras aquel episodio, el volcán ha entrado en erupción en numerosas ocasiones, y está considerado como uno de los volcanes más peligrosos del mundo, ya que en sus alrededores viven unos tres millones de personas y sus erupciones han sido violentas
+
+Se trata de la zona volcánica más densamente poblada del mundo. Es el único volcán situado en la parte continental de Europa que ha sufrido una erupción en el siglo XX. Los otros dos volcanes italianos que han entrado en erupción en las últimas centurias se encuentran en islas: el Etna en Sicilia y el Stromboli en las islas Eolias.
+
+Los griegos y los romanos consideraban que se trataba de un lugar sagrado dedicado al héroe y semidiós Heracles/Hércules, del cual tomó el nombre la ciudad de Herculano, situado en la base del monte.
+        </p>
+        </div>
+   <div>
+   <center>  
+    <img src="imagenes/volcan-2.jpg" width="50%" height="50%"></center>
+   </div>
+   </div>
+   <div data-role="collapsible" data-content-theme="false">
+        <h3> Pico de Orizaba, Puebla Veracruz</h3>
+        <div>
+        <p>
+       Es un estrato volcán , el más alto de la montaña en México y la tercera más alta en América del Norte , después de Denali (anteriormente conocido como el Monte McKinley) del Estados Unidos y Monte Logan de Canadá . Se eleva 5,636 metros (18,491 pies) sobre el nivel del mar en el extremo oriental de la Faja Volcánica Transmexicana , en la frontera entre los estados de Veracruz y Puebla . El volcán se encuentra actualmente en estado latente , pero no extinguido , con la última erupción que tiene lugar durante el siglo 19. Es el segundo más prominente pico volcánico en el mundo después de África Monte Kilimanjaro .
+        </p>
+        </div>
+   <div>
+   <center>  
+    <img src="imagenes/volcan-3.jpg" width="50%" height="50%"></center>
+   </div>
+   </div>
+   </div>
+   <div data-role="footer" data-theme="a">
+   <h4>Cielo Abril Maca Malpica</h4>
+   </div>
+   </div>
+   
+   <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Galeria</h1>
+   </div> 
+   <div>
+   <!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:1084px;height:817px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+</div>
+<div data-role="footer" data-theme="a">
+   <h4>Cielo Abril Maca Malpica</h4>
+   </div>
+</body>
+</html>
